@@ -1,0 +1,114 @@
+// Varible
+$font24 : 24px;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+$font32: 32px;
+$font20: 20px;
+$font26: 26px;
+$font58: 58px;
+$font82: 82px;
+$font62: 62px;
+
+
+// height
+$height: 100%;
+
+// padding
+$padding01: 30px;
+$padding02: 16px 27px;
+$padding03: 18px 25px;
+$padding04: 40px 0;
+$padding05: 20px 0;
+$padding06: 0 0 60px 0;
+$padding07: 0 0 40px 0;
+$padding08: 114px 0;
+$padding09: 28px 72px;
+$padding10: 120px;
+$padding11: 14px 100px 14px 12px;
+$padding12: 16px 14px;
+$padding13: 30px 0 ;
+
+
+
+// margin
+$margin01: 0 0 100px 0;
+$margin02: 0 0 0 30px;
+$margin03: 0 0 0 60px;
+$margin04: 95px 0 0;
+$margin05: 40px 0;
+$margin06: 0 0 0 20px;
+$margin07: 0 0 70px 0;
+$margin08: 10px 0;
+$margin09: 0 0 0 60px;
+$margin10: 40px 40px 0px 0;
+$margin11: 0 0 20px 0;
+$margin12: 10px;
+$margin13: 20px 20px 0 0;
+$margin14: 40px 0 100px 0;
+$margin15: 0 0 30px 0;
+
+
+// line-height
+$lineheight01: 18px;
+$lineheight02: 30px;
+$lineheight03: 100px;
+$lineheight04: 24px;
+$lineheight05: 74px;
+$lineheight06: 28px;
+$lineheight07: 40px;
+
+
+//mixin
+@mixin flexproprtis{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flexprops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexpropsb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@mixin flexcolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexonly{
+    display: flex;
+    align-items: center;
+}
+@mixin flexonlynew{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// Responsive
+// $breakpoint: 768px;
+
+// @mixin only-for-mobile {
+//     @media (max-width: 768px) {
+//         @content;
+//     }
+// }
+
+// @mixin for-size($size) {
+//     @if $size == phone-only {
+//       @media (max-width: 599px) { @content; }
+//     } @else if $size == tablet-portrait-up {
+//       @media (min-width: 600px) { @content; }
+//     } @else if $size == tablet-landscape-up {
+//       @media (min-width: 900px) { @content; }
+//     } @else if $size == desktop-up {
+//       @media (min-width: 1200px) { @content; }
+//     } @else if $size == big-desktop-up {
+//       @media (min-width: 1800px) { @content; }
+//     }
+//   }
